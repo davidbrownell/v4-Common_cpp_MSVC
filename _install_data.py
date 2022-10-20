@@ -65,7 +65,7 @@ class _VisualStudioBuildToolsInstaller(Installer):
     @contextmanager
     def _YieldInstallSource(
         self,
-        dm: DoneManager,
+        dm: DoneManager,  # pylint: disable=unused-argument
     ) -> Iterator[Optional[Path]]:
         yield self.tool_dir / self.executable_name
 
