@@ -126,7 +126,7 @@ MSVC_VERSIONS: Dict[str, InstallData]       = {
         "MSVC",
         _VisualStudioBuildToolsInstaller(
             "v17.4",
-            "17.4.p3",
+            "17.4",
             "vs_BuildTools_17.4.exe",
         ),
         prompt_for_interactive=True,
